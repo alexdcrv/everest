@@ -5,4 +5,5 @@ services:
     restart: always
     build: .
     ports:
-      - '2310:2310'
+      - '127.0.0.1:2310:2310'
+
