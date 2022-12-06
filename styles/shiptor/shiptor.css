@@ -1,0 +1,169 @@
+._shiptor_widget_frame{
+    font-family: Bebas !important;
+    background-color: #FADB05 !important;
+}
+
+._shiptor_widget_header{
+    background-color: black !important;
+    box-shadow: none !important;
+}
+._shiptor_widget_close{
+    color: #FADB05 !important ;
+}
+._shiptor_widget_title{
+    font-family: Bebas !important;
+    color: #FADB05 !important;
+
+}
+._shiptor_widget_content{
+    background-color: #FADB05 !important;
+    
+}
+    ._shiptor_widget_wi_name{
+        color: black !important;
+        font-family: Bebas !important;
+    }
+    ._shiptor_widget_wi_cont{
+        color: black !important;
+        font-family: Bebas !important;
+
+    }
+    ._shiptor_widget_wi_quantity{
+        background-color: #FADB05 !important;
+        border: 2px solid black !important;
+    }
+    ._shiptor_widget_wi_quantity_up, ._shiptor_widget_wi_quantity_down, ._shiptor_widget_wi_delete{
+        color: black !important;
+    }
+
+
+
+
+._shiptor_widget_footer{
+    background-color: black !important;
+    
+}
+._shiptor_widget_basket_promo{
+    display: none !important;
+}
+
+._shiptor_widget_price_delivery, ._shiptor_widget_price_total, ._shiptor_widget_price_ware, #text{
+    background-color: #FADB05;
+    padding: 3px 5px;
+}
+._shiptor_widget_price_ware::before, ._shiptor_widget_price_ware::after{
+    color: black !important;
+}
+
+._shiptor_widget_button{
+    border: 2px solid #FADB05 !important;
+    border-radius: 0 !important;
+    color: #FADB05 !important; 
+    font-family: Bebas !important;
+    background-color: black !important;
+} 
+._shiptor_widget_order_but{
+    background-color: #FADB05 !important;
+    /* border: 2px solid; */
+    font-family: Bebas !important;
+    /* border: 2px solid #FADB05 !important; */
+    color: black !important;
+}
+
+._shiptor_widget_frame_basket._shiptor_widget_frame_basket_ico{
+    background-color: black !important;
+}
+._shiptor_widget_basket_icon{
+    background-color: black !important;
+}
+._shiptor_widget_basket_counter{
+    /* color: black !important; */
+    font-family: Bebas;
+}
+
+
+
+
+/* 2nd page */
+
+._shiptor_widget_section_head, ._shiptor_widget_methods {
+    color: black !important;
+    font-family: Bebas !important;
+}
+ ._shiptor_widget_group_title {
+    color: black !important;
+    font-family: Bebas !important;
+}
+._shiptor_widget_group_title::after {
+    margin-left: 5px;
+    color: black !important;
+}
+._shiptor_widget_methods_description, ._shiptor_widget_methods_title, ._shiptor_widget_methods_cost, ._shiptor_widget_methods_time {
+    color: black !important;
+    font-family: Bebas !important;
+    font-size: 16px !important;
+}
+
+._shiptor_widget_footer ._shiptor_widget_required ._shiptor_widget_group_title{
+    border: none !important;
+    color: #FADB05 !important;
+    font-size: 16px !important;
+    margin-top: 0 !important;
+    font-family: Bebas !important;
+}
+
+    ._shiptor_widget_frame ._shiptor_widget_header{
+        padding: 10px 20px !important;
+    }
+    ._shiptor_widget_frame ._shiptor_widget_close{
+        top: 13px;
+    }
+
+/* map */
+._shiptor_widget_panel{
+    background-color: black;
+    padding: 10px !important;
+}
+._shiptor_widget_panel a{
+    color: #FADB05 !important;
+}
+._shiptor_widget_points{
+    /* background-color: #FADB05 !important; */
+}
+._shiptor_map_filters{
+    background-color: #FADB05 !important;
+}
+._shiptor_widget_map_filters_label{
+    border: 2px solid black;
+    font-family: Bebas !important;
+}
+._shiptor_widget_map_filters_item._shiptor_widget_checked {
+    background-color: black !important;
+    color: #FADB05 !important;
+}
+.shiptor_widget_map_filters_items h3._shiptor_widget_map_filters_item{
+    text-decoration: none !important;
+    margin-bottom: 10px !important;
+    font-family: Bebas !important;
+}
+._shiptor_widget_map_filters_title{
+    text-decoration: none !important;
+    margin-bottom: 10px !important;
+    font-family: Bebas !important;
+    font-style: normal !important;
+}
+._shiptor_widget_points_confirm{
+    background-color: black !important;
+    color: #FADB05 !important;
+    font-family: Bebas !important;
+    font-size: 30px !important;
+    padding: 10px 0 !important;
+}
+
+
+
+
+.shiptor_widget_success{
+    font-family: Bebas !important;
+    color: black !important;
+}

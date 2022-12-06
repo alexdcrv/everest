@@ -1,0 +1,53 @@
+.rules {
+    background-color: black;
+    color: #FADB05;
+    font-family: RussoOne;
+    font-family: SuisseIntl;
+}
+.rules li {
+    list-style-type: none;
+   }
+.rules ul {
+    margin-left: 0; 
+    padding-left: 0; 
+   }
+.rules__title {
+    font-family: RussoOne;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    margin:0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.rules__wrap {
+    display: none;
+}
+@media (max-width:570px) {
+    .rules__title {
+        font-family: RussoOne;
+        text-align: center;
+        font-weight: 400;
+        font-size: 28px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .rules {
+        font-size: 12px;
+    }
+}
+@media (max-width:330px) {
+    .rules__wrap {
+        display: block;
+    }
+    .rules table {
+        border: 1px solid grey;
+        border-collapse: none;
+    }
+}
+@media (max-width:320px) {
+    .rules {
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,32 @@
+.header__container {
+    
+    height: 97px;
+    margin: 0;
+    background-color: #FADB05;
+    color: black;
+}
+.header__text {
+    text-align: center;
+    vertical-align: center;
+    font-family: Anton;
+    font-weight: 400;
+    font-size: 80px;
+    margin-left: 50%;
+    white-space: nowrap;
+    width: fit-content;
+    transform: translateX(-50%)translateY(-12px);
+    
+}
+@media (max-width:800px) {
+    .header__container {
+    
+        height: 50px;
+    
+    }
+    .header__text {
+        transform: translateX(-50%)translateY(4px);
+        font-size: 28px;
+      
+        
+    } 
+}

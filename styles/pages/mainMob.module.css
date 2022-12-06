@@ -1,0 +1,187 @@
+.mob__banner {
+    background-color: #FADB05;
+    color: black;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center left;
+}
+.mob__banner__top {
+    height: 22px;
+    background-color: black;
+    width: 100%;
+}
+.mob__banner__img__new {
+    width: 100vw;
+}
+.mob__banner__img__cont {
+    margin-top: auto;
+    margin-bottom: 1px;
+    width: 100vw;
+    
+}
+.mob__button {
+    position: absolute;
+    height: 55px;
+    min-height: 40px;
+    min-width: 95vw;
+    outline: none;
+    background: linear-gradient(93.1deg, #000000 4.38%, #313014 101.39%);
+    border-radius: 5.60944px;
+    color:#FADB05;
+    font-size: 39px;
+    font-family: RussoOne;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: 500ms ease all;
+    top: auto;
+    left: -5px;
+    bottom: 60px;
+}
+.mob__banner__img {
+    width: 100%;
+    
+    transform: translateY(5px);
+}
+.mob__banner__title {
+    font-family: Anton;
+    font-size: 53px;
+    border-bottom: black 3px solid;
+}
+.mob__banner__title2 {
+    font-family: Anton;
+    font-size: 48px;
+    border-bottom: black 3px solid;
+}
+.mob__banner__subtitle {
+    font-size: 14.4px;
+    margin-top: 10px;
+    
+}
+.mob__banner__button {
+    width: 100%;
+    background-color: black;
+    color: #FADB05;
+    outline: none;
+    font-family: RussoOne;
+    font-size: 22px;
+    height: 35.5px;
+    border: 2px solid black;
+    margin-top: 13px;
+}
+.mob__banner__million {
+    white-space: nowrap;
+    font-family: Anton;
+    font-size: 61.5px;
+}
+.mob__banner__money {
+    width: 41px;
+    height: 54px;
+    margin-left: 8px;
+}
+
+
+.mob__second {
+
+    width: 100%;
+    display: none;
+    justify-content: center;
+}
+.mob__second__title {
+    font-size: 64px;
+    margin-top: 50px;
+}
+.mob__second__part {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.mob__second__img {
+    width: 100%;
+   
+}
+.mob__second__descr{
+    width: 80%;
+    
+}
+.mob__second__last {
+    width: 100%;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mob__second__number {
+    text-align: center;
+    border: 3px solid #FADB05;
+    width: 38px!important;
+    height: 38px!important;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.mob__second__profit {
+    
+    font-size: 33px;
+    margin-bottom: 50px;
+}
+.mob__second__dots {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mob__second__text {
+    font-size: 28px;
+    margin-left: 30px;
+}
+@media (max-width:1250px) {
+    .mob__second {
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+@media (max-width:600px) {
+    .mob__banner {
+        display: flex;
+    }
+    .mob__second__part {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+    .mob__second__title {
+        font-size: 31.2px;
+        margin-top: 26px;
+    }
+    .mob__second__profit {
+        /* text-decoration: underline; */
+        font-size: 33px;
+        margin-bottom: 50px;
+    }
+    .mob__second__dots {
+        width: 30px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .mob__second__text {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .mob__second__number {
+        font-size: 18px;
+        width: 33px!important;
+        height: 33px!important;
+        padding-top: 2.5px;
+    }
+    .mob__second__profit {
+        font-size: 20px;
+    }
+}

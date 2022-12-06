@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Anton; /* Гарнитура шрифта */
+  src: url(../public/fonts/Anton-Regular.eot); /* Для IE5-8 */
+  src: url(../public/fonts/Anton-Regular.woff),
+  url(../public/fonts/Anton-Regular.woff2); /* Для остальных браузеров */
+
+ }
+@font-face {
+  font-family: Bebas;
+  src: url(../public/fonts/BebasNeueBold.eot);
+  src: url(../public/fonts/BebasNeueBold.woff),
+  url(../public/fonts/BebasNeueBold.woff2); 
+
+}
+@font-face {
+  font-family: RussoOne;
+  src: url(../public/fonts/RussoOne-Regular.eot); 
+  src: url(../public/fonts/RussoOne-Regular.woff),
+  url(../public/fonts/RussoOne-Regular.woff2); 
+
+}
+@font-face {
+  font-family: SuisseIntl;
+  src: url(../public/fonts/SuisseIntl-Regular.eot); 
+  src: url(../public/fonts/SuisseIntl-Regular.woff),
+  url(../public/fonts/SuisseIntl-Regular.woff2); 
+
+}

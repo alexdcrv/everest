@@ -1,0 +1,196 @@
+.contacts {
+    background-color: black;
+    color: #FADB05;
+    font-family: RussoOne;
+   
+}
+.contacts__us {
+   text-align: center;
+   font-size: 40px;
+   margin-top: 70px;
+}
+.contacts__get__info {
+    margin-top: 70px;
+    margin-left: 23vw;
+    width: 54vw;
+    text-align: left;
+    font-size: 20px;
+ }
+ .contacts__get__info:last-child {
+    margin-top: 70px;
+ }
+ .contacts__link {
+    color: #FFF089;
+    cursor: pointer;
+    transition: all 300ms ease;
+ }
+ .contacts__link:hover {
+    text-decoration: underline;
+ }
+ .contacts__inputs {
+     display: flex;
+     flex-direction: column;
+     margin-left: 23vw;
+     width: 54vw;
+ }
+ .contacts__input {
+    background: none;
+    outline: none;
+    border: 3px solid #FADB05;
+    color: #FADB05;
+    height:60px;
+    font-family: RussoOne;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: black;
+}
+.contacts__input:-webkit-autofill
+{
+ -webkit-box-shadow: 0 0 0 30px black inset !important;
+ -webkit-text-fill-color: #FADB05 !important;
+} 
+.contacts__input__name {
+    font-size: 22px;
+    margin: 0;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+.contacts__textarea {
+    background: none;
+    outline: none;
+    border: 3px solid #FADB05;
+    color: #FADB05;
+    height:305px;
+    resize: none;
+    font-family: RussoOne;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.contacts__input__name:first-child {
+    margin-top: 115px;
+}
+.contacts__send {
+    margin-left: 23vw;
+    width: 54vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.contacts__msg__send {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 70px;
+    left:50vw;
+    transform: translateX(-50%) translateY(120px);
+    max-width: 100%;
+    background-color: black;
+}
+.contacts__send__button {
+    width: 351px;
+    text-align: center;
+    text-decoration: none;
+    color: #FADB05;
+    height: 76px;
+    background:none;
+    font-family: RussoOne;
+    font-size: 46px;
+    outline: none;
+    border: 5px solid #FADB05;
+    cursor: pointer;
+    margin-top: 37px;
+    margin-bottom: 230px;
+    transition: 200ms ease-in all;
+}
+.contacts__send__button:hover {
+    color: black;
+    background-color:#FADB05;
+}
+@media (max-width:1400px) {
+    .contacts__inputs {
+       
+        margin-left: 10vw;
+        width: 80vw;
+    }
+    .contacts__get__info {
+       
+        margin-left: 10vw;
+        width: 80vw;
+        
+     }
+     .contacts__send {
+        margin-left: 10vw;
+        width: 80vw;
+
+        
+    }
+    }
+@media (max-width:570px) {
+    .contacts__msg__send {
+        font-size: 28px;
+        transform: translateX(-50%) translateY(30px);
+    }
+    .contacts__us {
+        text-align: center;
+        font-size: 28px;
+
+        margin: 0;
+        margin-left: 10%;
+        margin-top:20px;
+        width: 80%;
+     }
+     .contacts__get__info {
+        margin-top: 25px;
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
+        font-size: 14px;
+     }
+    .contacts__input__name {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .contacts__input__name:first-child {
+        margin-top: 36px;
+    }
+    .contacts__textarea {
+        background: none;
+        outline: none;
+        border: 2px solid #FADB05;
+        color: #FADB05;
+        height:91px;
+
+        font-family: RussoOne;
+        font-size: 16px;
+    }
+    .contacts__input {
+       
+        border: 2px solid #FADB05;
+        color: #FADB05;
+        height:32px;
+        
+        font-size: 16px;
+        
+    }
+    .contacts__inputs {
+       
+        margin-left: 10vw;
+        width: 80vw;
+    }
+    .contacts__send {
+        margin-left: 10vw;
+        width: 80vw;
+
+        
+    }
+    .contacts__send__button {
+        width: 100%;
+        text-align: center;
+        height: 50px;
+        font-size: 35px;
+        border: 2px solid #FADB05;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        transition: none;
+    }
+}

@@ -1,0 +1,129 @@
+.main {
+    display:flex;
+    justify-content: space-between;
+    height: 119px;
+    align-items: center;
+  
+}
+.footer__order {
+    width: 420px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    height: 50.6px;
+    background-color: #FADB05;
+    font-family: RussoOne;
+    font-size: 32px;
+    padding-top: 2px;
+    margin-left: 31px;
+    transition: 200ms ease-in all;
+    cursor: pointer;
+    border: 5px solid transparent;
+}
+.footer__order__mob {
+    display: none;
+    width: 80vw;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    height: 50.6px;
+    background-color: #FADB05;
+    font-family: RussoOne;
+    font-size: 32px;
+    padding: 0;
+    padding-top: 4px;
+    margin-bottom:64px;
+    margin-top: 64px;
+    transition: 200ms ease-in all;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.footer__order:hover {
+    color: #FADB05;
+    background-color:black;
+    border: 5px solid #FADB05;
+}
+.footer__button {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    font-family: RussoOne;
+    color: #FADB05;
+    cursor: pointer;
+    margin-right: 42px;
+}
+.footer__year {
+    font-size:22px;
+    margin-top:30px;
+    display: none;
+}
+.footer__button:hover {
+    text-decoration: underline;
+}
+.footer__buttons {
+    margin-right: 29px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    background-color: black;
+}
+@media (max-width:1500px) {
+    .footer__buttons {
+        
+        margin: 0;
+    
+    }
+.footer__button {
+    
+    margin-right:12px;
+}}
+@media (max-width:1250px) {
+    .main {
+        display:flex;
+        justify-content: space-between;
+        height: 129px;
+        align-items: center;
+    }
+    .footer__buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin: 0;
+    
+    }
+    .footer__button {
+        
+        margin-right:2px;
+    }
+}
+@media (max-width:800px) {
+    .main {
+        display:flex;
+        justify-content: space-between;
+        height: auto;
+        align-items: center;
+        
+    }
+    .footer__year {
+       
+        display: block;
+    }
+    .footer__buttons {
+        height: 100%;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .footer__button {
+        margin-top: 30px;
+    }
+    .footer__order {
+        display: none;
+    }
+    .footer__order__mob {
+        display: block;
+    }
+    
+}
