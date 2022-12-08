@@ -11,6 +11,16 @@ const Banner = ({ improvement, contacts }) => {
         <div className={styles.main__banner_contacts}>
           <>
             <CopyToClipboard
+              text={"+79788349927"}
+              onCopy={() => {
+                toast.success("Номер скопирован");
+              }}
+            >
+              <div style={{ cursor: "pointer" }}>+7 (978) 834-99-27</div>
+            </CopyToClipboard>
+          </>
+          <>
+            <CopyToClipboard
               text={"+79180626749"}
               onCopy={() => {
                 toast.success("Номер скопирован");
@@ -19,6 +29,7 @@ const Banner = ({ improvement, contacts }) => {
               <div style={{ cursor: "pointer" }}>+7 (918) 062-67-49</div>
             </CopyToClipboard>
           </>
+
           <div>Пн-Пт 9.00-18.00</div>
           <>
             <CopyToClipboard
